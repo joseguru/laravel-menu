@@ -2,14 +2,13 @@
     "name": "joseguru/laravel-menu",
     "description": "Laravel database menu manager",
     "license": "MIT",
+    "version": "0.0.1",
     "keywords": ["menu", "laravel", "laravel-menu", "menu-manager", "laravel-menu-manager"],
     "authors": [{
         "name": "Joseph Murgor",
         "homepage": "https://github.com/joseguru"
     }],
-    "require": {
-        "illuminate/support": "^8.71|^9.0"
-    },
+
     "autoload": {
         "psr-4": {
             "JoseGuru\\LaravelMenu\\": "src"
