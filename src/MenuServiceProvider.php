@@ -35,6 +35,10 @@ class MenuServiceProvider extends ServiceProvider
                 __DIR__.'/../database/migrations/create_menu_tables.php.stub' => $this->getMigrationFileName('create_menu_tables.php'),
             ], 'migrations');
         }
+        $this->app->bind('custom-package', function()
+        {
+            return new CustomPackage();
+        });
     }
 
     /**

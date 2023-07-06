@@ -21,7 +21,11 @@
         "laravel": {
             "providers": [
                 "JoseGuru\\LaravelMenu\\MenuServiceProvider"
-            ]
+            ],
+            "alias": {
+                "CustomPackageFacade": "JoseGuru\\LaravelMenu\\Facades\\CustomPackageFacade"
+
+            }
         }
     }
 }
